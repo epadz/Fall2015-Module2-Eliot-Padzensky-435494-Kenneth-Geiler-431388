@@ -1,0 +1,14 @@
+Eliot Padzensky 435494
+Kenneth Geiler 431388
+
+http://ec2-52-88-111-193.us-west-2.compute.amazonaws.com/csemod2again/login.php
+
+Log in with username Eliot
+
+Creative elements:
+1)The CSS
+2)The ability to register as a new user
+3)List of files displays type and size
+4)File sharing feature
+5)File download button (in addition to open)
+6)The ability to rename files

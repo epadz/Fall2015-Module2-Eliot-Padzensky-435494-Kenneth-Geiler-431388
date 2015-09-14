@@ -1,0 +1,295 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,700);
+body{
+	background-image:url(includes/background.png);
+	background-repeat:repeat;
+	font-family:"Roboto", sans-serif;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	font-family:"Roboto", sans-serif;
+}
+.loginBox{
+	background-color:#F7F7F7;
+	width:400px;
+	height:200px;
+	position:fixed;
+	left:50%;
+	top:100px;
+	margin:0 0 0 -200px;
+	border-radius:5px;
+	padding:10px;
+}
+.loginBox h1{
+	width:400px;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+.loginBox table{
+}
+.loginBox table tr{
+	height:50px;
+}
+.loginBox table tr td{
+	height:50px;
+}
+.errorRow{
+	height:15px !important;
+	color:#FF0000;
+}
+.errorRow td{
+	height:15px !important;
+}
+input{
+	width:150px;
+	height:30px;
+	border-radius:5px;
+	border:1px solid #666;
+	line-height:30px;
+	font-size:20px;
+}
+#logInButton, #regButton{
+	width:100px;
+	height:40px;
+	line-height:40px;
+	background-color:#428bca;
+	color:#FFFFFF;
+	border-radius:3px;
+	cursor:pointer;
+	text-align:center;
+	font-weight:400;
+	position:relative;
+	float:left;
+	margin:30px 15px 0 0;
+}
+
+.main{
+	position:relative;
+	width:60vw;
+	height:auto;
+	min-width:400px;
+	margin:10vh 20vw auto 20vw;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	padding:10px;
+	border:1px solid #333;
+}
+.fileTable{
+	width:90%;
+	margin:0 0 0 5%;
+	border-spacing: 0;
+	border:1px solid #428bca;
+	border-radius:5px;
+}
+.fileTable thead tr:first-child{
+	background-color: #428bca;
+	color:#FFFFFF;
+}
+.fileTable thead tr:first-child th{
+	height:30px;
+	line-height:20px;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	font-weight:700;
+}
+.fileTable tbody{
+}
+.fileTable tr{
+}
+
+.fileTable td{
+	border-bottom:solid #666 1px;
+	height:30px;
+	border-right:solid 1px #CCCCCC;
+	padding:5px 10px 5px 10px;
+}
+.fileTable td:first-child{
+	text-align:center;
+	padding:5px;
+	width:30px;
+}
+.fileTable td:nth-child(3){
+	width:60px;
+}
+.fileTable td:nth-child(4){
+	width:150px;
+}
+.fileTable td:nth-child(5){
+	width:120px;
+}
+.fileTable td a{
+	color:#428bca;
+}
+.fileTable td a:hover{
+	font-weight:700;
+}
+.uploadButton{
+	background-color: #428bca;
+	padding: 10px;
+	border-radius: 2px;
+	text-decoration: none;
+	cursor:pointer;
+	text-align:center;
+	color: white;
+	margin: 5px 5px 5px 5%;
+	width: 150px;
+	text-overflow: ellipsis;
+	height:20px;
+	overflow:hidden;
+	white-space:nowrap;
+	line-height:20px;
+	font-size:14px;
+}
+.trashBttn{
+	background-image:url(includes/trash.svg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#F20000;
+	border-radius:2px;
+	width:20px;
+	height:20px;
+	position:relative;
+	display:inline;
+	float:left;
+	cursor:pointer;
+	margin:3px;
+	border:2px solid #F20000;
+}
+.downloadBttn{
+	background-image:url(includes/download.svg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#428bca;
+	border-radius:2px;
+	width:20px;
+	height:20px;
+	position:relative;
+	display:inline;
+	float:left;
+	cursor:pointer;
+	margin:3px;
+	border:2px solid #428bca;
+}
+.editBttn{
+	background-image:url(includes/edit.svg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#428bca;
+	border-radius:2px;
+	width:20px;
+	height:20px;
+	position:relative;
+	display:inline;
+	float:left;
+	cursor:pointer;
+	margin:3px;
+	border:2px solid #428bca;
+}
+.shareBttn{
+	background-image:url(includes/share.svg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#428bca;
+	border-radius:2px;
+	width:20px;
+	height:20px;
+	position:relative;
+	display:inline;
+	float:left;
+	cursor:pointer;
+	margin:3px;
+	border:2px solid #428bca;
+}
+.infoTooltip {
+    padding: 10px;
+    color: #333;
+	background:#F7F7F7;
+    border-radius: 2px;
+    font: 14px "Roboto";
+    box-shadow: 0 0 7px black;
+	border:none;
+}
+#logOutButton{
+	position:absolute;
+	color:#fff;
+	padding:5px 5px 2px 2px;
+	background-color:#999999;
+	text-decoration:none;
+	top:5px;
+	right:5px;
+	border-radius:5px;
+}
+#share{
+	position:fixed;
+	height:150px;
+	width:300px;
+	top:150px;
+	left:50%;
+	margin-left:-150px;
+	background-color:#FFFFFF;
+	border:1px solid #333;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+#share h2{
+	padding:0px;
+	margin:10px;
+	text-align:center;
+}
+#share input{
+	margin-left:76px;
+}
+#shareButton{
+	width:100px;
+	height:40px;
+	line-height:40px;
+	background-color:#428bca;
+	color:#FFFFFF;
+	border-radius:3px;
+	cursor:pointer;
+	text-align:center;
+	font-weight:400;
+	position:relative;
+	float:left;
+	margin:10px 100px 0 100px;
+}
+#closeShare{
+	color:#333;
+	text-align:right;
+	display:inline;
+	position:relative;
+	top:5px;
+	right:5px;
+	float:right;
+}
+#footer{
+	position:fixed;
+	width:100vw;
+	bottom:0;
+	left:0;
+	background-color:#FFF;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+#footer p{
+	margin:0;
+	padding:0;
+	text-align:center;
+	line-height:30px;
+	font-size:18px;
+}
